@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Login form responsive</title>
+</head>
+
+<body>
+    <div class="l-form">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+
+        <div class="form">
+            <img src="assets/img/authentication.svg" alt="" class="form__img">
+
+            <!-- ===== LOGIN FORM START ===== -->
+            <form action="#" method="POST" class="form__content" id="loginForm">
+                <h1 class="form__title">Welcome</h1>
+
+                <!-- Username Input -->
+                <div class="form__div form__div-one">
+                    <div class="form__icon">
+                        <i class='bx bx-user-circle'></i>
+                    </div>
+                    <div class="form__div-input">
+                        <label for="username" class="form__label">Username</label>
+                        <input type="text" id="username" name="username" class="form__input" required>
+                    </div>
+                </div>
+
+                <!-- Password Input -->
+                <div class="form__div">
+                    <div class="form__icon">
+                        <i class='bx bx-lock'></i>
+                    </div>
+                    <div class="form__div-input">
+                        <label for="password" class="form__label">Password</label>
+                        <input type="password" id="password" name="password" class="form__input" required>
+                    </div>
+                </div>
+
+                <a href="#" class="form__forgot">Forgot Password?</a>
+
+                <input type="submit" class="form__button" value="Login">
+
+                <!-- Social Media Icons -->
+                <div class="form__social">
+                    <a href="https://www.facebook.com" class="form__social-icon" aria-label="Facebook" target="_blank"
+                        rel="noopener">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://accounts.google.com" class="form__social-icon" aria-label="Google" target="_blank"
+                        rel="noopener">
+                        <i class='bx bxl-google'></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="form__social-icon" aria-label="Instagram" target="_blank"
+                        rel="noopener">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+            </form>
+            <!-- ===== LOGIN FORM END ===== -->
+        </div>
+    </div>
+
+    <!-- ===== MAIN JS ===== -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
